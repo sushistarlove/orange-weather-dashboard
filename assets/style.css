@@ -1,11 +1,12 @@
 * {
   font-family: Arial, Helvetica, sans-serif;
+  
 }
 
 .jumbotron {
     text-align: center;
-    background-color: plum;
-    color: white;
+    background-image: linear-gradient(to right, plum, orange);
+    color: lavenderblush;
     border: 3px solid black;
     font-family: Arial, Helvetica, sans-serif;
 
@@ -17,7 +18,7 @@ form.search input[type=text] {
   border: 3px solid black;
   float: left;
   width: 25%;
-  background: white;
+  background: lavenderblush;
 }
 
 form.search button {
@@ -25,7 +26,7 @@ form.search button {
   width: 5%;
   padding: 10px;
   background: plum;
-  color: white;
+  color: lavenderblush;
   font-size: 17px;
   border: 3px solid black;
   border-left: none;
@@ -40,7 +41,7 @@ form.search button:hover {
 .btn-group button {
   background-color: plum; 
   border: 3px solid black; 
-  color: white; 
+  color: lavenderblush; 
   padding: 12px 24px;
   margin-top: 30px;
   cursor: pointer; 
@@ -52,4 +53,14 @@ form.search button:hover {
   background-color: lavenderblush;
   color: black;
 }
+
+#box1 {
+  padding: 10px;
+  font-size: 17px;
+  border: 3px solid black;
+  margin-top: 15px;
+  width: 65%;
+  height: 60%;
+}
   
+
